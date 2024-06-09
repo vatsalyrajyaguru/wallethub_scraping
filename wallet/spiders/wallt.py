@@ -1,15 +1,11 @@
 import scrapy
 
-
-
 class WalltSpider(scrapy.Spider):
     name = 'wallt'
     
-
     def start_requests(self):
         url = "https://wallethub.com/search/?s=American+Express"
-
-       
+     
         headers = {
           'authority': 'wallethub.com',
           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -24,25 +20,19 @@ class WalltSpider(scrapy.Spider):
                              headers=headers,  
                              callback=self.parse)
         
-
     def parse(self, response):
        
-
         for i in response.xpath("//input[contains(@class,'companypage')]//following-sibling::div"):
             tittle = i.xpath(".//a/text()").get()
             box_type = i.xpath(".//span[contains(@class,'box-type')]/text()").get()
-           
-            # tittle_link1 = "https://wallethub.com"+ i.xpath(".//a//@href").get()
-           
+                      
             tittle_link = f'https://wallethub.com{i.xpath(".//a//@href").get()}'
-
 
             img_link = i.xpath(".//img//@src").get()
             review = i.xpath(".//span[contains(@class,'rev-count')]/text()").get()
             address = i.xpath(".//address/text()").get()
             address_code = i.xpath(".//address/span/text()").get()
             
-
             item ={
                 "tittle":tittle,
                 "box_type":box_type,
@@ -51,7 +41,6 @@ class WalltSpider(scrapy.Spider):
                 "review":review,
                 "address":address,
                 "address_code":address_code
-
             }
             yield item
 
