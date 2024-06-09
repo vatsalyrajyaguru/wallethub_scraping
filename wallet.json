@@ -1,0 +1,47 @@
+[
+    {
+        "tittle": "American Express",
+        "box_type": "Bank",
+        "tittle_link2": "https://wallethub.com/profile/american-express-13000208i",
+        "img_link": "https://cdn.wallethub.com/common/profile/images/150/american-express_094813000208i.jpg",
+        "review": "22888 ",
+        "address": "115 West Towne Ridge Parkway ",
+        "address_code": "Sandy, UT 84070"
+    },
+    {
+        "tittle": "Robert Ward Mccarthy",
+        "box_type": "Insurance Broker",
+        "tittle_link2": "https://wallethub.com/profile/robert-ward-mccarthy-13603855i",
+        "img_link": "https://cdn.wallethub.com/common/profile/images/150/robert-ward-mccarthy_173213603855.png",
+        "review": "0 ",
+        "address": "1764 Litchfield Tpke Ste 305 ",
+        "address_code": "Woodbridge, CT 06525-2353"
+    },
+    {
+        "tittle": "Michelle Mosher Rothwell",
+        "box_type": "Insurance Broker",
+        "tittle_link2": "https://wallethub.com/profile/michelle-mosher-rothwell-13652153i",
+        "img_link": "https://cdn.wallethub.com/common/profile/images/150/michelle-mosher-rothwell_173213652153.png",
+        "review": "0 ",
+        "address": "7701 Airport Center Dr ",
+        "address_code": "Greensboro, NC 27409"
+    },
+    {
+        "tittle": "Chhean Chheang Chhor",
+        "box_type": "Insurance Broker",
+        "tittle_link2": "https://wallethub.com/profile/chhean-chheang-chhor-13598183i",
+        "img_link": "https://cdn.wallethub.com/common/profile/images/150/chhean-chheang-chhor_173213598183.png",
+        "review": "0 ",
+        "address": "9200 Keystone Xing Ste 100 ",
+        "address_code": "Indianapolis, IN 46240"
+    },
+    {
+        "tittle": "Kevin L Ogle",
+        "box_type": "Insurance Broker",
+        "tittle_link2": "https://wallethub.com/profile/kevin-l-ogle-13478719i",
+        "img_link": "https://cdn.wallethub.com/common/profile/images/150/kevin-l-ogle_173213478719.png",
+        "review": "0 ",
+        "address": "800 N Magnolia Ave Ste 1700 ",
+        "address_code": "Orlando, FL 32803"
+    }
+]
