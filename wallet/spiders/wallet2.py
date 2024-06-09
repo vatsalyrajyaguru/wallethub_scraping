@@ -28,7 +28,7 @@ class Wallet2Spider(scrapy.Spider):
 
     def parse(self, response):
         json_data = json.loads(response.text)
-        # print(json_data)
+        
 
         for i in json_data['reviews']:
             try:
